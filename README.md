@@ -35,16 +35,18 @@ Email: [luwei_ahu@qq.com](mailto:luwei_ahu@qq.com); WeChat: luwei_ahu.
 Your star is the power that keeps us updating github.
 
 ## Installation
-```shell
 + Prerequisites for Python:
+  ```shell
   - Creating a virtual environment in the terminal: `conda create -n LSMD python=3.8`
   - Activate the environment: `conda activate LSMD`
   - Installing necessary packages: `pip install -r requirements.txt`
+  ```
 
 + Train/Test
+  ```shell
   - `python -m tools.train`
   - `python -m tools.test`
-```
+  ```
 
 
 ## License
